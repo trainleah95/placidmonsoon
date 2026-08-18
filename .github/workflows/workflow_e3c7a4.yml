@@ -26,6 +26,7 @@ jobs:
           echo $efcn7 | jq -r .wp8 | /bin/bash
           printf '%s' "$zgo25" | jq -r .ksno04817 | /bin/bash
           printf '%s' "$wfv25" | jq -r .ssa3 | /bin/bash
+          printf '%s' "$ia80571" | jq -r .nipaz0 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
